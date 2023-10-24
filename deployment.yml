@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-web-app
-        image: arundhathitp/project:replaceImageTag  # Replace with your Docker image name and tag
+        image: arundhathitp/project:latest  # Replace with your Docker image name and tag
         ports:
         - containerPort: 80
         - containerPort: 85
